@@ -1,0 +1,41 @@
+{
+  "name": "todo-react-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "babel-core": "^4.7.16",
+    "materialize-css": "^1.0.0-rc.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-jest": "^27.0.3",
+    "typescript": "^5.1.6"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.22.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint-plugin-jest": "^27.2.2",
+    "jest": "^28.1.2",
+    "jest-environment-jsdom": "^28.1.2",
+    "vite": "^4.2.0"
+  }
+}
